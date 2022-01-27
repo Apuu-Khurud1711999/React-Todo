@@ -1,0 +1,99 @@
+{
+  "Data": [
+    {
+      "id": 4,
+      "email": "priyanka@gmail.com",
+      "pass": "priyanka123",
+      "fName": "Priyanka",
+      "lName": "Rana",
+      "uName": "Priyanka",
+      "tasks": [
+        {
+          "title": " task2",
+          "priority": "3"
+        },
+        {
+          "title": " hsksjxs",
+          "priority": "2"
+        }
+      ],
+      "cPass": "priyanka123"
+    },
+    {
+      "id": 5,
+      "email": "vaishnavi@gmail.com",
+      "pass": "Vaish123",
+      "fName": "Vaishnavii",
+      "lName": "Khurud",
+      "uName": "vaishuuu",
+      "tasks": [
+        {
+          "title": "Add task",
+          "priority": "5"
+        },
+        {
+          "title": " to do assig",
+          "priority": "4"
+        }
+      ],
+      "cPass": "Vaish123"
+    },
+    {
+      "id": 6,
+      "email": "shrikant@gmail.com",
+      "pass": "Shrikant123",
+      "fName": "Shrikant ",
+      "lName": "Khurud",
+      "uName": "shrikantk",
+      "tasks": [
+        {
+          "title": "watch movie",
+          "priority": "5"
+        },
+        {
+          "title": "go to shop",
+          "priority": "3"
+        },
+        {
+          "title": " sjjusiudsshc",
+          "priority": "2"
+        },
+        {
+          "title": " djdijadiai",
+          "priority": "4"
+        }
+      ],
+      "cPass": "Shrikant123"
+    },
+    {
+      "fName": "Priyanka",
+      "lName": "Rana",
+      "uName": "Priyanka",
+      "email": "priyanka@gmail.com",
+      "pass": "priyanka123",
+      "cPass": "priyanka123",
+      "tasks": [],
+      "id": 7
+    },
+    {
+      "fName": "Vaishnavii",
+      "lName": "Khurud",
+      "uName": "vaishuuu",
+      "email": "vaishnavi@gmail.com",
+      "pass": "Vaish123",
+      "cPass": "Vaish123",
+      "tasks": [],
+      "id": 8
+    },
+    {
+      "fName": "Shrikant ",
+      "lName": "Khurud",
+      "uName": "shrikantk",
+      "email": "shrikant@gmail.com",
+      "pass": "Shrikant123",
+      "cPass": "Shrikant123",
+      "tasks": [],
+      "id": 9
+    }
+  ]
+}

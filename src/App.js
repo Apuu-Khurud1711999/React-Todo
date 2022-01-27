@@ -1,25 +1,37 @@
-import logo from './logo.svg';
 import './App.css';
+import { Component } from 'react';
+import { BrowserRouter as Router, Route, Switch, Link, NavLink,Redirect } from 'react-router-dom';
+import Login from './components/Login'
+import Register from './components/Register';
+import Dashboard from './components/Dashboard';
+import Todo from './components/Todo';
+import ChangePassword from './components/ChangePassword';
+import Notfound from './components/Notfound';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+
+class App extends Component {
+  
+  render() {
+    return (
+      <>
+        <Router>
+          <Switch>
+            <Route  exact path="/"  component={Login}></Route>
+            <Route  exact path="/register"  component={Register}></Route>
+            <Route path="/dash" component={Dashboard}></Route>
+            <Route path="/todo" component={Todo}></Route>
+            <Route path="/changePass" component={ChangePassword}></Route>
+            <Route exact component={Notfound}/>
+          </Switch>
+        </Router>
+
+
+      </>
+    );
+
+  }
 }
-
 export default App;
+
